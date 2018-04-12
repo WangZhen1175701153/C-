@@ -1,0 +1,11 @@
+#include <iostream>           //预处理编译指令
+int main()                     //函数头
+{                               
+    using namespace std;         //编译指令
+    int a;
+    count << "Hello,World";        //count输出消息,<<插入操作符将字符串插入到输出流中
+    count << endl;                  //endl 换行符 等于 '/n'
+    cin >> a;                       //键盘输入a，
+    cuont << a;
+    return 0;
+}
