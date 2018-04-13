@@ -1,0 +1,29 @@
+DAY1:
+#include <iostream>           //预处理编译指令
+int main()                     //函数头
+{                               
+    using namespace std;         //编译指令
+    int a;
+    count << "Hello,World";        //count输出消息,<<插入操作符将字符串插入到输出流中
+    count << endl;                  //endl 换行符 等于 '/n'
+    cin >> a;                       //键盘输入a，
+    cuont << a;
+    return 0;
+}
+
+DAY2:
+#include<cmath> 调用数学函数库
+变量定义不能以数字开头，可以用下划线开头，作为全局变量。
+C++ short至少16位，int至少与short一样长，long至少32位且至少与int一样长。
+字符A编码65.a为97.
+const常量限定符。 const int t = 1 ；  应在声明中对const进行初始化，否则常量值不确定且无法修改。调用常量时，只需要调用t。
+使用count.self(ios_base::fixed,ios_base::floatfield); 限定输出的值，小数点后六位。可以使用在除法操作符（/）中。
+只有在定义数组的时候才能初始化，可以使用下标分别给数组中元素赋值。
+#include<string>字符串库。
+结构：struct inflatable    //关键字 struct
+{
+  chara name[20];
+  float volume;
+  double price;
+ };
+ 
